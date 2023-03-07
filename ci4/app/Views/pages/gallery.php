@@ -6,17 +6,17 @@ if (isset($_GET['class'])) {
     $class = $_GET['class'];
 
     // Connect to the database
-    require "db-localhost.php";
+    require "db-apcwebprog.php";
 
     // Execute the SQL command based on the value of the 'class' parameter
     if ($class == 'shs') {
-        $sql = "SELECT * FROM myworks 
+        $sql = "SELECT * FROM acfidelino_myworks 
                 WHERE class = 'SHS Projects'";
     } elseif ($class == 'webprog') {
-        $sql = "SELECT * FROM myworks 
+        $sql = "SELECT * FROM acfidelino_myworks 
                 WHERE class = 'WEBPROG Projects'";
     } else {
-        $sql = "SELECT * FROM myworks 
+        $sql = "SELECT * FROM acfidelino_myworks 
                 WHERE class = 'Other Projects'";
     }
 
