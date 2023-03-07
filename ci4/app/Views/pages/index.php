@@ -67,7 +67,7 @@
                     </div>
                     <div class="col-md-6 mb-auto d-flex flex-column justify-content-center">
                         <img src="media/formalpic.png" class="img-fluid mx-auto mb-2" style="height:17rem; width:16rem; object-fit:cover; object-position: 0 15px">
-                        <h3 class="caption text-center">Aki (he/him) </h3>
+                        <h3 class="caption text-center">Akira (he/him) </h3>
                         <p class="caption text-center fw-light">Computer Science Student</p>
                         <div class="col sm-3 mt-1 d-flex justify-content-center">
                             <a class="btn btn-custom px-5 fw-semibold" data-bs-toggle="modal" data-bs-target="#contactModal" role="button" href="#" style="letter-spacing: 3px;">MESSAGE ME</a>
