@@ -7,10 +7,10 @@ use CodeIgniter\Model;
 class NewsModel extends Model
 {   
     // APCWEBPROG
-    protected $table = 'acfidelino_news';
+    //protected $table = 'acfidelino_news';
 
     // Localhost:    
-    // protected $table = 'news';
+    protected $table = 'news';
     protected $allowedFields = ['title', 'slug', 'body'];
 
     public function getNews($slug = false)

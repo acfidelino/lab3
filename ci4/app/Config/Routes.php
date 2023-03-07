@@ -30,17 +30,29 @@ $routes->set404Override();
 // We get a performance increase by specifying the default
 // route since we don't have to scan directories.
 
+// We get a performance increase by specifying the default
+// route since we don't have to scan directories.
 $routes->get('/', 'Home::index');
 
-use App\Controllers\Guest;
+use App\Views\pages\guest as glist;
+use App\Views\pages\gallery as dboard;
 use App\Controllers\News;
 use App\Controllers\Pages;
 
+$routes->match(['get', 'post'], 'dboard', [dboard::class, 'create']);
+$routes->get('gllery/(:segment)', [dboard::class, 'view']);
+
+$routes->match(['get', 'post'], 'glist', [glist::class, 'create']);
+$routes->get('glist/(:segment)', [glist::class, 'view']);
+
 $routes->match(['get', 'post'], 'news/create', [News::class, 'create']);
 $routes->get('news/(:segment)', [News::class, 'view']);
+
 $routes->get('news', [News::class, 'index']);
 $routes->get('pages', [Pages::class, 'index']);
 $routes->get('(:segment)', [Pages::class, 'view']);
+
+
 
 /*
  * --------------------------------------------------------------------

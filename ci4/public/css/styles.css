@@ -1,0 +1,167 @@
+.bordered-cont{
+    border: 0.5px solid rgba(0, 0, 0, 0.1) !important;
+}
+
+.heading{
+    color: #3D3D3D !important;
+}
+
+.captions{
+    color: #545454 !important;
+}
+
+.link-caption{
+    color: #545454 !important;
+}
+
+.link-caption:hover{
+    color: #252525 !important;
+}
+
+.btn{
+    border-radius: 0 !important;
+}
+
+.btn-custom{
+    background-color: #3D3D3D !important;
+    color: #ffffff !important;
+}
+
+.btn-custom:hover{
+    background-color: #4e4e4e !important;
+}
+
+.img-fit{
+    min-width: 567px !important;
+    max-height: 25rem;
+    object-fit: contain !important;
+}
+
+@media (max-width: 990px) {
+    .desc-col{
+       margin-left: 5rem !important;
+    }
+}
+
+.banner{
+    background-image: url('../media/easetitik.png') !important; 
+    min-width:100% !important; 
+    height:23rem !important; 
+    background-position: 50% 40% !important; 
+    background-size: 90% !important;
+    background-repeat: repeat-x !important;
+}
+
+.fluid-bg-light{
+    /*background-color: #FFFAF4 important;*/
+    background-color: #FBF3E4 !important;
+}
+
+.cust_prog-lg{
+    margin: 1rem 10rem 2rem 8rem !important;
+    height: 2rem !important;
+
+}
+.cust_prog-smmd{
+    margin: 1rem 2rem 2rem 4rem !important;
+    height: 2rem !important;
+}
+
+.progress-bar{
+    background-color: #3D3D3D !important;
+ }
+
+ .grid {
+    margin: 0 auto;
+  }
+
+  .grid-item {
+    margin-bottom: 30px;
+    position: relative;
+  }
+
+  .grid-item img {
+    width: 100%;
+  }
+
+  .grid-item img:hover {
+    opacity: 0.8;
+    transition: opacity 0.3s ease;
+  }
+
+  .overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 50%;
+    background: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    padding: 20px;
+    transform: translateY(100%);
+    opacity: 0;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+  }
+
+  .overlay h2 {
+    margin-top: 0;
+  }
+
+  .overlay p {
+    margin-bottom: 0;
+  }
+
+  .grid-item:hover .overlay {
+    transform: translateY(0);
+    opacity: 1;
+  }
+
+
+  @media (min-width: 768px) {
+    .grid {
+      column-count: 2;
+    }
+  }
+
+  @media (min-width: 992px) {
+    .grid {
+      column-count: 3;
+    }
+  }
+
+  @media (min-width: 1200px) {
+    .grid {
+      column-count: 4;
+    }
+  }
+
+  .grid-sizer,
+  .gutter-sizer {
+    width: 0;
+    height: 0;
+  }
+
+  
+  @media (min-width: 768px) {
+    .grid-sizer,
+    .gutter-sizer {
+      width: 50%;
+    }
+  }
+
+  @media (min-width: 992px) {
+    .grid-sizer,
+    .gutter-sizer {
+      width: 33.33%;
+    }
+  }
+  
+  @media (min-width: 1200px) {
+    .grid-sizer,
+    .gutter-sizer {
+      width: 25%;
+    }
+  }
+
+
+ 

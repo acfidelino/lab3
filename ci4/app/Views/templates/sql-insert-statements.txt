@@ -1,0 +1,115 @@
+#SHS:
+INSERT INTO `myworks`(`name`, `description`, `img_dir`, `class`, `link`) 
+VALUES ('Underrated Artists Website','Lipsum','media/myworks/sample-act.png','SHS Projects','Unavailable');
+
+INSERT INTO `myworks`(`name`, `description`, `img_dir`, `class`, `link`) 
+VALUES ('Initial Sites: Maya','Lipsum','media/myworks/maya.png','SHS Projects','Unavailable');
+
+INSERT INTO `myworks`(`name`, `description`, `img_dir`, `class`, `link`) 
+VALUES ('DOTA Heroes','Lipsum','media/myworks/dota-heroes.png','SHS Projects','Unavailable');
+
+INSERT INTO `myworks`(`name`, `description`, `img_dir`, `class`, `link`) 
+VALUES ('Jack-En-Politics','Lipsum','media/myworks/jack-en-pols.png','SHS Projects','Unavailable');
+
+INSERT INTO `myworks`(`name`, `description`, `img_dir`, `class`, `link`) 
+VALUES ('Aki❜s Bakeshop','Lipsum','media/myworks/akis-bakeshop.PNG','SHS Projects','Unavailable');
+
+INSERT INTO `myworks`(`name`, `description`, `img_dir`, `class`, `link`) 
+VALUES ('Easethetiks: WikiSite','Lipsum','media/myworks/wikisite.PNG','SHS Projects','https://wiki2.apc.edu.ph/index.php?title=Easethetiks');
+
+INSERT INTO `myworks`(`name`, `description`, `img_dir`, `class`, `link`) 
+VALUES ('Easethetiks','Lipsum','media/myworks/easethetiks-index.png','SHS Projects','https://apc.edu.ph/programs/senior-high-school/#elementor-tab-title-2174');
+
+INSERT INTO `myworks`(`name`, `description`, `img_dir`, `class`, `link`) 
+VALUES ('Javank: Console-Based Bank','Lipsum','media/myworks/javank.PNG','SHS Projects','Unavailable');
+
+#WEBPROG:
+
+INSERT INTO `myworks`(`name`, `description`, `img_dir`, `class`, `link`) 
+VALUES ('APCWEBROG Main Index','Lipsum','media/myworks/index-pic.PNG','WEBPROG Projects','apcwebprog.csf.ph/~acfidelino');
+
+INSERT INTO `myworks`(`name`, `description`, `img_dir`, `class`, `link`) 
+VALUES ('APCWEBROG Week-1 Output','Lipsum','media/myworks/week-1.PNG','WEBPROG Projects','apcwebprog.csf.ph/~acfidelino/lab1/static');
+
+INSERT INTO `myworks`(`name`, `description`, `img_dir`, `class`, `link`) 
+VALUES ('APCWEBROG Week-3 Output','Lipsum','media/myworks/week-3.PNG','WEBPROG Projects','apcwebprog.csf.ph/~acfidelino/lab2/week3');
+
+INSERT INTO `myworks`(`name`, `description`, `img_dir`, `class`, `link`) 
+VALUES ('APCWEBROG Week-5 Output','Lipsum','media/myworks/week5.PNG','WEBPROG Projects','apcwebprog.csf.ph/~acfidelino/lab2/week5');
+
+INSERT INTO `myworks`(`name`, `description`, `img_dir`, `class`, `link`) 
+VALUES ('APCWEBROG Week-9 Output','Lipsum','media/myworks/week9.PNG','WEBPROG Projects','apcwebprog.csf.ph/~acfidelino/lab2/week9');
+
+INSERT INTO `myworks`(`name`, `description`, `img_dir`, `class`, `link`) 
+VALUES ('APCWEBROG News Section', 'Lipsum', 'media/myworks/news-sec.PNG' ,'WEBPROG Projects','http://apcwebprog.csf.ph/~acfidelino/lab3/ci4/public/news');
+
+#OTHERS:
+
+INSERT INTO `myworks`(`name`, `description`, `img_dir`, `class`, `link`) 
+VALUES ('MW-Pharmacy', 'Lipsum', 'media/myworks/mwpharma.png' ,'Other Projects','https://www.figma.com/proto/zi6NoKpuPJOSqBtPDtcYKV/USERDES?node-id=52%3A758&scaling=scale-down&page-id=2%3A487&starting-point-node-id=52%3A758');
+
+INSERT INTO `myworks`(`name`, `description`, `img_dir`, `class`, `link`) 
+VALUES ('SubRosa', 'Lipsum', 'media/myworks/SubRosa.png' ,'Other Projects','https://asiapacificcollege-my.sharepoint.com/:v:/g/personal/lzpadillo_student_apc_edu_ph/EXx9Cjj2BwxEmj2cxTZlOKcBvKKSlvNUPKbMkXytynn-Ng?e=tNIehg');
+
+INSERT INTO `myworks`(`name`, `description`, `img_dir`, `class`, `link`) 
+VALUES ('Haraya', 'Lipsum', 'media/myworks/haraya.PNG' ,'Other Projects','https://asiapacificcollege-my.sharepoint.com/:v:/g/personal/acfidelino_student_apc_edu_ph/EWWIZli39OdAgCXNPe8gjmUBh9g2kW5pxpundv7ic0KIdg?e=CYmGWN');
+
+INSERT INTO `myworks`(`name`, `description`, `img_dir`, `class`, `link`) 
+VALUES ('MeSure', 'Lipsum', 'media/myworks/mesure.png' ,'Other Projects','Not Available');
+
+INSERT INTO `myworks`(`name`, `description`, `img_dir`, `class`, `link`) 
+VALUES ('Angelo: Movie', 'Lipsum', 'media/myworks/Angelo Film.png' ,'Other Projects','Not Available');
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
